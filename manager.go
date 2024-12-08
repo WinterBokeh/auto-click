@@ -104,7 +104,7 @@ func (m *Manager) work() {
 	for true {
 		//捕获当前屏幕
 		start := time.Now()
-		screenImg := robotgo.CaptureImg()
+		screenImg, _ := robotgo.CaptureImg()
 		cost := time.Since(start)
 
 		fmt.Println("_______________________________")
@@ -118,7 +118,7 @@ func (m *Manager) work() {
 
 			fmt.Print(" 正在匹配：", img.path, " 相似度：", num, " 匹配耗时：", cost)
 
-			if num > 0.9 {
+			if num > 0.7 {
 				start := time.Now()
 				randomClick(tempPosX, tempPosY, img.ImgMaxX, img.ImgMaxY)
 				cost := time.Since(start)
