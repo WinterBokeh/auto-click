@@ -11,9 +11,12 @@
 <img width="387" alt="image" src="https://user-images.githubusercontent.com/39732766/213117177-13ffa5f3-c229-41b4-9ef4-044fc26c5443.png">
 
 
-启动脚本，输入截图文件夹的名称
+打开一个终端，使用 ``./auto-click``启动脚本 ，按照macos的提示赋予相关权限（不要用直接点击程序的方法打开，可能会让macos无法正常赋予权限）
+<img width="285" alt="image" src="https://user-images.githubusercontent.com/39732766/213121764-ae4c8c7c-6bc8-41a6-91dc-0074689ecb3c.png">
 
-切换到游戏界面，开刷
+
+
+输入截图文件夹的名称，切换到游戏界面，开刷
 <img width="836" alt="image" src="https://user-images.githubusercontent.com/39732766/213117380-03ee7666-f1c9-424e-9ed2-0ed71289af99.png">
 
 
