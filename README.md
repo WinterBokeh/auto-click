@@ -2,6 +2,11 @@
 适用于mac的游戏自动点击脚本，可用于阴阳师、明日方舟等游戏，使用了一些手段进行防检测
 
 ## 使用
+
+安装opencv及其依赖 ``brew install opencv``
+
+(注：目前本项目适配opencv 4.12，如因后续opencv更新提示库相关报错，可以降opencv版本使用或者提issue/pr)
+
 在``auto-click``文件夹下创建一个文件夹，放入需要检测的按钮截图，如`liaotupo`
 <img width="627" alt="image" src="https://user-images.githubusercontent.com/39732766/213117127-1f5bcb0d-8220-4c1b-ae6e-f616c589ce35.png">
 
